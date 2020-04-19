@@ -1,9 +1,10 @@
 from unittest import TestCase
+from {{cookiecutter.package|replace('-', '_')}} import *
 
 
 class PackageTestCase(TestCase):
     """
-    Casos de teste.
+    Para rodar o caso de teste primeiro tem que gerar o tar.gz do pacote.
     """
 
     def setUp(self):
