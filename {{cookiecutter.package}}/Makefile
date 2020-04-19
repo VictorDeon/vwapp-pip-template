@@ -21,3 +21,7 @@ pypi_test:
 pypi:
 	# Enviando o pacote para o PyPI Live
 	twine upload dist/*
+
+flake8:
+	# Roda a folha de estilo.
+	flake8

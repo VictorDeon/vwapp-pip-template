@@ -1,9 +1,9 @@
 from unittest import TestCase
-from {{cookiecutter.package}} import *
 
-class {{cookiecutter.package}}TestCase(TestCase):
+
+class PackageTestCase(TestCase):
     """
-    {{cookiecutter.description}}
+    Casos de teste.
     """
 
     def setUp(self):
@@ -20,9 +20,9 @@ class {{cookiecutter.package}}TestCase(TestCase):
 
         pass
 
-    def test_{{cookiecutter.package}}(self):
+    def test_success(self):
         """
-        Teste {{cookiecutter.package}}.
+        Teste para o caso de sucesso!.
         """
 
         self.assertEqual(True, True)

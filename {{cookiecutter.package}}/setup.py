@@ -1,3 +1,4 @@
+# flake8: noqa
 from setuptools import setup, find_packages
 import os
 
@@ -10,7 +11,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='{{cookiecutter.package}}',
     version='{{cookiecutter.version}}',
-    url='https://github.com/{{cookiecutter.author}}/{{cookiecutter.package}}',
+    url='https://github.com/{{cookiecutter.author | replace(' ', '')}}/{{cookiecutter.package}}',
     license='MIT License',
     author='{{cookiecutter.author}}',
     author_email='{{cookiecutter.email}}',
