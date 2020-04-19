@@ -1,0 +1,8 @@
+{
+    "package": "nome-do-pacote",
+    "description": "Descrição do pacote.",
+    "version": "0.1.0",
+    "author": "Victor Deon",
+    "email": "vwapplication@gmail.com",
+    "keywords": "python python3"
+}
