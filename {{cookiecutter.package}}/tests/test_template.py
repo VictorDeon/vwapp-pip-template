@@ -1,5 +1,5 @@
 from unittest import TestCase
-from {{cookiecutter.package|replace('-', '_')}} import *
+from {{cookiecutter.src}} import *
 
 
 class PackageTestCase(TestCase):
